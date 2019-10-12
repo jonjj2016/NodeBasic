@@ -2,15 +2,23 @@
   "name": "nodeLesson",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonjj2016/NodeBasic.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonjj2016/NodeBasic/issues"
+  },
+  "homepage": "https://github.com/jonjj2016/NodeBasic#readme",
   "dependencies": {
-    "mongoose": "^5.7.4",
-    "underscore": "^1.9.1"
+    "lion-lib-xx57": "^1.2.0"
   }
 }

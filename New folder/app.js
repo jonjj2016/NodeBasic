@@ -19,19 +19,19 @@
 
 // logger.log("message from root module")
 // logger.message()
-// const http = require('http');
-// const server = http.createServer((req, res) => {
-//     if (req.url === "/") {
-//         console.log("home page")
-//         res.write("Hello World")
-//         res.end()
-//     }
-//     if (req.url === "/api/courses") {
-//         res.write(JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9, {
-//             name: "Jon"
-//         }]))
-//         res.end()
-//     }
-// })
+const http = require('http');
+const server = http.createServer((req, res) => {
+    if (req.url === "/") {
+        console.log("home page")
+        res.write("Hello World")
+        res.end()
+    }
+    if (req.url === "/api/courses") {
+        res.write(JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9, {
+            name: "Jon"
+        }]))
+        res.end()
+    }
+})
 
-// server.listen(3000, () => console.log("The server is running on port 3000"))
+server.listen(3000, () => console.log("The server is running on port 3000"))
