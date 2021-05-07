@@ -13,7 +13,7 @@
   "dependencies": {
     "mogoose": "0.0.1-security",
     "mongoose": "^5.7.4",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "jshint": "^2.10.2"
